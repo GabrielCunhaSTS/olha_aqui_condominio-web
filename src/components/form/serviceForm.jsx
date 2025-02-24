@@ -28,7 +28,7 @@ const ServiceForm = ({ serviceData, handleInputChange, handleFileChange }) => {
                 value={serviceData.phone}
                 onChange={(value) => handleInputChange('phone', value)} 
                 validate={(value) => 
-                    /^\+55 \(\d{2}\) \d{4,5}-\d{4}$/.test(value) ? '' : "Número de telefone inválido."
+                    /^\+55 \(\d{2}\) \d{4,5}-\d{4}$/.test(value) ? '' : str.validaton.phone
                 } 
             />
             <InputField 

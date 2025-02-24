@@ -8,7 +8,8 @@ const str = {
         date: "Data é obrigatória.",
         location: "Local deve ter mais que 3 caracteres.",
         source: "Fonte deve ter mais que 2 caracteres.",
-        link: "Link deve ser uma URL válida."
+        link: "Link deve ser uma URL válida.",
+        phone: "Número de telefone inválido."
     },
     eventAdd: {
         title: "Cadastrar Evento",
